@@ -4,16 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Semantic Resume Page">
-    <title>My Resume</title>
+    <meta name="description" content="Resume of Tanvi Shelar">
+    <title>Resume - Tanvi Shelar</title>
 </head>
 
 <body>
 
-    <!-- Header Section -->
     <header>
-        <h1>Tanvi Shelar</h1>
-        <p>Web Development Intern</p>
+        <h1>Tanvi Sanjay Shelar</h1>
+        <p>MCA Student | Web Developer</p>
 
         <nav>
             <a href="#about">About</a> |
@@ -26,99 +25,117 @@
 
     <main>
 
-        <!-- About Section -->
         <section id="about">
             <h2>About Me</h2>
-            <p>
-                I am a passionate web development intern learning
-                frontend and backend technologies.
-            </p>
+            <article>
+                <p>
+                    I am an MCA student interested in Web Development,
+                    AI projects, and software development.
+                </p>
+            </article>
         </section>
 
-        <!-- Education Section -->
         <section id="education">
             <h2>Education</h2>
 
             <article>
-                <h3>Bachelor of Computer Science</h3>
-                <p>XYZ College</p>
-                <p>2023 - 2026</p>
+                <h3>MCA</h3>
+                <p>College Name: Yashwantrao Mohite Institude Management Karad</p>
+                <p>Year: 2024 - 2026</p>
             </article>
 
+            <article>
+                <h3>BCA</h3>
+                <p>College Name: Yashwantrao Chavan College of Science, Karad</p>
+                <p>Year: 2021 - 2024</p>
+            </article>
         </section>
 
-        <!-- Skills Section -->
         <section id="skills">
             <h2>Skills</h2>
 
             <ul>
                 <li>HTML5</li>
-                <li>CSS3</li>
+                <li>CSS</li>
                 <li>JavaScript</li>
-                <li>GitHub</li>
-                <li>React</li>
+                <li>Python</li>
+                <li>Communication</li>
             </ul>
         </section>
 
-        <!-- Projects Section -->
         <section id="projects">
             <h2>Projects</h2>
 
             <article>
-                <h3>Village Panchayat Website</h3>
+                <h3>Grampanchayat Kadepur Web Portal</h3>
                 <p>
-                    Developed a responsive website for Gram Panchayat.
+                    Developed a web portal for village information,
+                    schemes, weather updates, and announcements.
                 </p>
             </article>
 
             <article>
-                <h3>Portfolio Website</h3>
+                <h3>AI Based Women Safety and Emergency Alert</h3>
                 <p>
-                    Created personal portfolio using HTML and CSS.
+                    AI-based safety system with emergency SOS,
+                    voice recognition, and live location sharing.
                 </p>
             </article>
         </section>
 
-        <!-- Aside Section -->
         <aside>
-            <h2>Languages</h2>
+            <h2>Hobbies</h2>
 
             <ul>
-                <li>English</li>
-                <li>Marathi</li>
-                <li>Hindi</li>
+                <li>Reading</li>
+                <li>Designing PPT</li>
+                <li>Coding</li>
             </ul>
         </aside>
 
-        <!-- Contact Form -->
-        <section id="contact">
-            <h2>Contact Me</h2>
+    </main>
 
-            <form>
+    <footer id="contact">
+        <h2>Contact</h2>
 
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required>
+        <p>Email: tanvishelar45@gmail.com</p>
+        <p>Phone: 9322562890</p>
+
+        <form>
+
+            <fieldset>
+
+                <legend>Contact Form</legend>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
                 <br><br>
 
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
                 <br><br>
 
-                <label for="phone">Phone:</label><br>
-                <input type="tel" id="phone" name="phone"
-                    pattern="[0-9]{10}" required>
+                <label for="mobile">Mobile:</label>
+                <input type="tel"
+                       id="mobile"
+                       pattern="[0-9]{10}"
+                       required>
+
+                <br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message"></textarea>
+
                 <br><br>
 
                 <button type="submit">Submit</button>
 
-            </form>
-        </section>
+            </fieldset>
 
-    </main>
+        </form>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 Tanvi Shelar</p>
     </footer>
 
 </body>
